@@ -1,6 +1,6 @@
 # Python
-Python
-Python is high level programming language. Python is most wanted and widely used language now a days in every domians. Its good to learn such a cool language. I hope you wil enjoy learning Python.
+
+Python is high level programming language. Python is most wanted and widely used language now a days in every domains. Its good to learn such a cool language. I hope you will enjoy learning Python.
 
 Let's begin the show..!
 
@@ -76,21 +76,37 @@ You can concatenate two strings using + operator.
 
 If you want to concatenate another data type with string, then you need to use str() function to convert non-string to string type and then you can concatenate two strings. This is useful in case of concatenating different type of data types in messages.
 
+    "firstname" + 3 => This gives you error as you seen in above examples.
+
+Let's convert 3 to string type and then try to concatenate.
+
     "firstname" + str(3) => firstname3
 
-    "I will eat " + str(3) + " bananas " + str(2) + " apples"  => I will eat 3 bananas 2 apples
+    "I will eat " + str(3) + " bananas and " + str(2) + " apples"  => I will eat 3 bananas 2 apples
 
 
 Cool right... Keep going..
 
-As of now, we have seen different data types which can hold a single value. But what to do when we wanted to know multiple values a single variable...?
+As of now, we have seen different data types which can hold a single value. But what to do when we need to store multiple values in a single variable...?
 
 The answer is **List**. Let us see how list works.
 
 - **List**    
 
-A list can contain any Python type. Although it's not really common, a list can also contain a mix of Python types including strings, floats, booleans, etc.
+A list is a python data type. A list can contain any Python type. Although it's not really common, a list can also contain a mix of Python types including strings, floats, booleans, etc.
 
 It's true; A python list can contain different data types in a single a list variable.
 
     Ex : sampleList =["12", 12.4, 1200, 'This is test', '1']
+
+    [1, 3, 4, 2]
+
+A list also can contain another lists.
+
+    matrix = [[1, 2, 3], [4, 5, 7]]
+
+    house = [["hallway Area", 120.67], ["kitchen Area", 12000], ["living room Area", 10.45]]
+
+You can also have internal expressions in a list.
+
+    temp_list = [1 + 2, "a" * 5, 3]
