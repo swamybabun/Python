@@ -4,7 +4,40 @@ Python is high level programming language. Python is most wanted and widely used
 
 Let's begin the show..!
 
-# Data types
+### Download & Installation
+Get latest Python version from [Download Python](https://www.python.org/downloads/) as per your operating system type. 
+
+### Setup
+Add the PATH of Python interpreter to the PATH variable in case of Windows. In case of Mac, Add the path of python interpreter to the BASH file.
+
+### Terminal
+There are mainly two different ways of coding python programs. 
+ 
+ 1) By Python Script using any of IDE's like MyEclipse, Sublime, Atom  and many Python editor softwares.
+ 2) By Interactive mode using IPython Notebook.
+
+## Execution of Python programs
+
+Python files has extension as **.py**.
+
+Open IPython notebook or python IDE and create a new file named as first.py and then add below code to it.
+
+      print "Hello World!"
+
+save the file and run the file as below 
+      
+      python first.py
+
+Great..! you see your first Python progam as "Hello Word!".
+
+### Content
+
+* [Data types](#data-types)
+* [Functions](#functions)
+* [Packages](#packages)
+
+
+### Data types
 
 1) **int**    -> Data type to store integer values
 2) **float**  -> Data type to store floating point numbers
@@ -229,23 +262,34 @@ Reading index of arrays by inbuilt functions :
 
 ### Packages:
 
-Packages are useful to organising the related classes in to groups.
-There are different ways of importing a python packages.
+Packages are useful to organising the related classes in to groups. There are different possible ways of importing a python packages.
 
-  # Import the math package
-  import math
+If you want to include full package, then add import statement as below.
+     # Import the math package
+       import math
+       
+       call function as  ==>  math.pi() in code
 
-  # Import radians function of math package
-  from math import radians
+If you want to include a specific function from a package, then add import statement as below.
+      # Import radians function of math package
+        from math import radians
+        
+        call function as  ==>  radians(value)
 
-  # Import linang sub package from scipy  as my_inv
-  from scipy.linalg import inv as my_inv
+If you want to include a specific sub package from a package, then add import statement as below.
+      
+      # Import linang sub package from scipy  as my_inv
+        from scipy.linalg import inv as my_inv
+       
+        call function as  ==>  my_inv([[1,2], [3,4]])
 
-  you can write as ==>  my_inv([[1,2], [3,4]])
+That's good enough to work on functions.
 
-
-
+### References:
 
 You can read more from https://docs.python.org/3/contents.html.
+
+
+Thanks for your time.  Look out for updates on this page for more content.
 
 Hope you enjoy this journey of mastering Python.
