@@ -12,19 +12,19 @@ Let's begin the show..!
 
 - Creating and initialising different data type variables
 
-age=20
-salary =20345
-pi=3.4
-name ="test name"
-firstname ='initial name'
+    age=20
+    salary =20345
+    pi=3.4
+    name ="test name"
+    firstname ='initial name'
 
-- To know the type of variable, you can user type() function.
+- To know the type of variable, you can user type() function.Few examples.
 
-example : type(age) => int
-type(salary)        => int
-type(pi)            => float
-type(name)          => str
-type(firstname)     => str
+    type(age) => int
+    type(salary)        => int
+    type(pi)            => float
+    type(name)          => str
+    type(firstname)     => str
 
 - Operators
 
