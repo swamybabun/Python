@@ -9,14 +9,16 @@ Let's begin the show..!
 1) **int**    -> Data type to store integer values
 2) **float**  -> Data type to store floating point numbers
 3) **str**    -> Data type to store text values
+3) **bool**   -> Data type to store True or false
 
 - Creating and initialising different data type variables
-            
+
       age = 20
       salary = 20345
       pi = 3.4
       name = "test name"
       firstname = 'initial name'
+      isValid = True
 
 - To know the type of variable, you can user type() function.Few examples.
 
@@ -25,29 +27,70 @@ Let's begin the show..!
       type(pi)          => float
       type(name)        => str
       type(firstname)   => str
+      type(isValid)     => bool
 
-- Operators
+- To print the value of a variable, you need to user print() function.
 
-**Addition**  :   => Useful for calculating the addition of a number with another.
+      area = 20
+      print(area) => 20
 
-    1 + 4 gives 5
+      area = "Netherlands"
+      print(area) => Netherlands
 
-    1.4 + 5.9 gives 7.3
-           
+      area = True
+      print(area) => True
+
+Let us see on how to work with operators in Python.
+
+- Operators :
+
+There are different types of operators as usual as to other programming languages.
+
+**Addition**  : + is addition operator  => Useful for calculating the addition of a number with another.
+
+You can concatenate two strings using + operator.
+
+    1 + 4 = 5
+
+    1.4 + 5.9 = 7.3
+
     "firstname" + "lastname" => firstnamelastname
 
-**Subtraction**  : -  => Useful for calculating the subtraccting a number from another.
+    "firstname" + 3 => gives you error as "Can't convert 'int' object to str implicitly"
 
-    1 - 4 gives -3
+**Subtraction**  : - is Subtraction operator  => Useful for calculating the subtracting a number from another.
 
-    5.9 - 4.3 gives 1.6
+    1 - 4 = -3
+
+    5.9 - 4.3 = 1.6
 
     "firstname" - "lastname" => gives you error as "unsupported operand type(s) for -: 'str' and 'str'"
 
-**Multiplication**  : * => Useful for calculating the multipling a number with another.
+**Multiplication**  : * is multiplication operator => Useful for calculating the multipling a number with another.
 
     1 * 2 => 2
 
 **Factorial** : **  =>  Useful for calculating the factorial of a number
 
     2 ** 3 = 8 => This means 2 * 2 * 2 which results in 8.
+
+If you want to concatenate another data type with string, then you need to use str() function to convert non-string to string type and then you can concatenate two strings. This is useful in case of concatenating different type of data types in messages.
+
+    "firstname" + str(3) => firstname3
+
+    "I will eat " + str(3) + " bananas " + str(2) + " apples"  => I will eat 3 bananas 2 apples
+
+
+Cool right... Keep going..
+
+As of now, we have seen different data types which can hold a single value. But what to do when we wanted to know multiple values a single variable...?
+
+The answer is **List**. Let us see how list works.
+
+- **List**    
+
+A list can contain any Python type. Although it's not really common, a list can also contain a mix of Python types including strings, floats, booleans, etc.
+
+It's true; A python list can contain different data types in a single a list variable.
+
+    Ex : sampleList =["12", 12.4, 1200, 'This is test', '1']
