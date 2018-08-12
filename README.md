@@ -50,4 +50,4 @@ Let's begin the show..!
 
 **Factorial** : **  =>  Useful for calculating the factorial of a number
 
-    2 ** 3 ==> 2 * 2 * 2 => 8
+    2 ** 3 = 8 => This means 2 * 2 * 2 which results in 8.
