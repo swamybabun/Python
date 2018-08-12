@@ -159,3 +159,93 @@ Accessing Sublists in a list:
       print(house[1][1]) => 18.0
 
       print(house[3][1]) => 10.75
+
+Manipulating List:
+
+- Updating a specific position element :
+
+      areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
+
+- Updating 9th index and 4th index elements in this 'areas' list.
+
+      areas[9]=10.50
+      areas[4]="chill zone"
+
+      print(areas) => ['hallway', 11.25, 'kitchen', 18.0, 'chill zone', 20.0, 'bedroom', 10.75, 'bathroom', 10.5]
+
+- Add more elements to the existing list
+
+      areas_1= areas + ["poolhouse", 24.5]
+
+      areas_2 = areas_1 + ["garage" , 15.45]
+
+- Delete elements from list:
+
+      areas = ["hallway", 11.25, "kitchen", 18.0, "chill zone", 20.0, "bedroom", 10.75,"bathroom", 10.50, "poolhouse", 24.5, "garage", 15.45]
+
+Now, we are removing "poolhouse", 24.5 elements from list
+
+      del(areas[-4:-2]) or  del(areas[10:12]) will do same operation.
+
+      print(areas)
+
+      ['hallway', 11.25, 'kitchen', 18.0, 'chill zone', 20.0, 'bedroom', 10.75, 'bathroom', 10.5, 'garage', 15.45]
+
+
+### Functions:
+Functions are useful for reusing the code and maintaining the code properly. There are plenty of inbuilt functions that we can use for different purposes. For example, len() for calculating the length of arguement, type() useful for finding the data type of parameter, int(data) method to convert given data to integer type.
+
+    # Create lists first and second
+    first = [11.25, 18.0, 20.0]
+    second = [10.75, 9.50]
+
+    len(first)  => 2
+
+    type(first) => list
+
+    int(10.45) => 10
+
+There are many functions like  sorted(), round()..etc
+
+      # Paste together first and second: full
+      full = first + second
+
+      # Sort full in descending order: full_sorted
+      full_sorted = sorted(full,reverse = True)
+
+      # Print out full_sorted
+      print(full_sorted)  ==> [20,0,18.0,11.25,10.75,9.50]
+
+Reading index of arrays by inbuilt functions :
+
+      # Create list areas
+      areas = [11.25, 18.0, 20.0, 10.75, 9.50]
+
+      # Print out the index of the element 20.0
+      print(areas.index(20.0))  ===> 1
+
+      # Print out how often 9.50 appears in areas
+      print(areas.count(9.50))   ===> 1
+
+### Packages:
+
+Packages are useful to organising the related classes in to groups.
+There are different ways of importing a python packages.
+
+  # Import the math package
+  import math
+
+  # Import radians function of math package
+  from math import radians
+
+  # Import linang sub package from scipy  as my_inv
+  from scipy.linalg import inv as my_inv
+
+  you can write as ==>  my_inv([[1,2], [3,4]])
+
+
+
+
+You can read more from https://docs.python.org/3/contents.html.
+
+Hope you enjoy this journey of mastering Python.
