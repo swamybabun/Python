@@ -133,10 +133,10 @@ You can retrieve the required element from its position by their index position.
 
 Accessing ranges in list: You can retrieve values in list by their ranges.
 
-list[startingIndex:endingIndex] => it gives us the values in list from given starting position to the endingIndex position. Remember, it doesn't include endingIndex element.
+list[startingIndex:endingIndex] => it gives us the values in list from given starting position to the endingIndex position. Remember, it doesn't include endingIndex element. It means, The start index will be included, while the end index is not.
 
   areas[2:8]  => This will give you values from second index position to 8th position.
-  
+
   areas[:4] => this results values from 0th index to 4th index.
 
   areas[3:] => this results values from 3rd index to last index in list.
