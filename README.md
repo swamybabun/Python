@@ -7,14 +7,46 @@ Let's begin the show..!
 ### Download & Installation
 Get latest Python version from [Download Python](https://www.python.org/downloads/) as per your operating system type. 
 
-### Setup
+### PATH Setup
 Add the PATH of Python interpreter to the PATH variable in case of Windows. In case of Mac, Add the path of python interpreter to the BASH file.
 
-### Terminal
+### Ways of Executing Python Programs
 There are mainly two different ways of coding python programs. 
  
  1) By Python Script using any of IDE's like MyEclipse, Sublime, Atom  and many Python editor softwares.
- 2) By Interactive mode using IPython Notebook.
+ 2) By Interactive mode using IPython Notebook. (is recommended for beginners)
+ 
+1) Install any text editor or python supported IDE. I prefer Atom or Sublime.
+     Download [Atom](https://atom.io/) or [Sublime](https://www.sublimetext.com/) and install it.
+
+2) By Interactive Mode :
+ 
+To run Python programs in interactive mode, you need to have IPython to be installed. There are two ways of installing it. 
+
+- By Anaconda distribution
+- By PIP package installer
+
+The popular recommended type is to install the Anaconda and run IPython. Download [Anaconda](https://www.anaconda.com/download/) as per your operating system and install it.
+
+Anaconda: (For beginners): This Need more space as its a huge package around (2.5 GB).
+
+    conda update conda
+    conda update ipython
+ 
+PIP type installation : (For experienced people)  : Make sure, PIP is already installed.
+ 
+    pip3 install --upgrade pip
+    pip install ipython
+
+You can also download manually IPython from [GitHub](http://github.com/ipython/ipython/releases) or [PyPI](http://pypi.python.org/pypi/ipython) and to install one of these versions, unpack it and run the following from the top-level source directory using the Terminal:
+
+    pip install .
+
+After installation done, If you want to start interative python mode, please run below command
+   
+    jupyter notebook
+
+If you want to have a look, how IPython looks like, please visit [IPython Sample](https://jupyter.org/try).
 
 ## Execution of Python programs
 
