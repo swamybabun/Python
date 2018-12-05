@@ -147,7 +147,7 @@ Let's convert 3 to string type and then try to concatenate.
 
     "firstname" + str(3) => firstname3
 
-    "I will eat " + str(3) + " bananas and " + str(2) + " apples"  => I will eat 3 bananas 2 apples
+    "I will eat " + str(3) + " bananas and " + str(2) + " apples"  => I will eat 3 bananas and 2 apples
 
 
 Cool right... Keep going..
